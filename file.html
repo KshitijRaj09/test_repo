@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Express js testing</title>
+
+</head>
+<body>
+    
+    <div style="background-color: cadetblue;">
+        <h2 id="h2html"></h2>
+        <h1>Header Expressjs</h1>
+        <p style="color: brown;">
+            contain for express js website
+        </p>
+        <button id="button1">Click</button>
+    </div>
+
+    <script>
+        console.log("inside js")
+        const hid = document.getElementById("h2html");
+        const bid = document.getElementById("button1");
+        let val = 0;
+        bid.addEventListener('click',()=>{
+            hid.innerHTML = ++val;
+        })
+
+    </script>
+    
+</body>
+</html>
