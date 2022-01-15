@@ -8,7 +8,7 @@ const path = require('path');
 
 
 app.get("/", (req, res) => {
-    res.send("inside first page")
+    res.send("inside first page /")
 })
 
 app.get('/index', (req, res) => {
