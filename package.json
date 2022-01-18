@@ -16,7 +16,9 @@
   "author": "Kshitij Raj",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.17.2",
+    "express": "^4.17.2"
+  },
+  "devDependencies": {
     "nodemon": "^2.0.15"
   }
 }
